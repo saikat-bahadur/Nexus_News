@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <title>NEXUS NEWS</title>
+</head>
+
+<body>
+<!-- HEADER 1 -->
+
+<header class="header1" id="header1">
+    <a href="index.html">
+        <h2 class="u-name">NEXUS<b>NEWS</b>
+		</h2>
+    </a>
+    
+    
+    <div class="search-bar">
+        <input id="search-text" type="text" class="news-input" placeholder="e.g. INDIA" >
+        <button id="search-button" class="search-button">Search</button>
+    </div>
+    
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+
+    </div>
+ 
+    
+</header>
+
+<!-- END OF HEADER 1 -->
+
+<!-- HEADER 2 -->
+<header class="header2" id="heaser2">
+   
+           
+    <div class="nav-links">
+        <ul class="flex">
+            <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
+            <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+            <li class="hover-link nav-item" id="world" onclick="onNavItemClick('world')">World</li>
+            <li class="hover-link nav-item" id="education" onclick="onNavItemClick('education')">Education</li>
+            <li class="hover-link nav-item" id="research" onclick="onNavItemClick('research')">Research</li>
+            <li class="hover-link nav-item" id="travel" onclick="onNavItemClick('travel')">Travel</li>
+            <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sport')">Sports</li>
+            <li class="hover-link nav-item" id="business" onclick="onNavItemClick('business')">Business</li>
+            <li class="hover-link nav-item" id="auto" onclick="onNavItemClick('auto')">Auto</li>
+            <li class="hover-link nav-item" id="entertainment" onclick="onNavItemClick('entertainment')">Entertainment</li>
+            <li class="hover-link nav-item" id="tv "onclick="onNavItemClick('tv')">Tv</li>
+            <li class="hover-link nav-item" id="blog" onclick="onNavItemClick('blogs')">Blogs</li>
+
+            <li class="hover-link nav-item" id="blog"><a href="blog.html">Indian Culture</a></li>
+               
+
+        </ul>
+    </div>
+</header>
+
+<!-- MAIN BODY -->
+<div class="news">
+    <img src="./images/news2.jpg" alt="news">
+</div>
+
+<div class="body">
+     <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+    </main>
+     <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+<img src="images/news2.jpg" alt="news-image" id="news-img">
+
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+</div>
+    <!-- END OF MAIN BODY -->
+   
+<!-- FOOTER -->
+<footer>
+    <div class="f-item-con">
+        <div class="app-info">
+            <span class='app-name'>
+                <span class='app-initial'>NEXUS </span>NEWS
+            </span>
+         <p>We are here to provide a comprehensive, user-friendly, and engaging platform for individuals to access reliable and diverse global news.
+            The platform ensures privacy, scalability, and continuous improvement, striving to be a trusted source of evolving news and information. 
+         </p>
+        </div>
+       
+        <div class="useful-links">
+            <div class="footer-title">POPULAR CATEGORIES</div>
+            <ul>
+                <li><span style="margin-right: 40px;">Sports News</span><span style="margin-left: 20px;">Indian TV Shows</span></li>
+                <li><span style="margin-right: 30px;">Business News</span><span style="margin-left: 15px;">Celebrity Photos</span></li>                       
+                <li><span style="margin-right: 45px;">Indian News</span><span style="margin-left: 20px;">Popular News</span></li>
+                <li><span style="margin-right: 40px;">Health & Fitness</span><span style="margin-left: 3px;">Leo OTT Release</span></li>
+                <li><span style="margin-right: 20px;">Celebrity Photos</span><span style="margin-left: 22px;">World News</span></li>
+                <li><span style="margin-right: 20px;">Warm Water Benefits</span><span style="margin-left: 10px;">Personality Test</span></li>
+
+
+            </ul>
+        </div>
+
+        <div class="footer-social-icon">
+        <div class="footer-title">FOLLOW US ON</div>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+
+       
+        <div class="help-sec">
+            <div class="footer-title">TOP TRENDS </div>
+            <ul>
+                <li><span style="margin-right: 30px;">Rinku Singh</span><span style="margin-left: 40px;">Mumbai Airport</span></li>
+                <li><span style="margin-right: 30px;">Israle Hamas</span><span style="margin-left: 30px;">Indian Squard</span></li>
+                <li><span style="margin-right: 30px;">China Pneumonia</span><span style="margin-left: 10px;">Rajouri Encounter</span></li>
+                <li><span style="margin-right: 30px;">Telengana Election</span><span style="margin-left: 5px;">Laptop</span></li>
+                <li><span style="margin-right: 30px;">Uttarakhand Tunnel</span><span style="margin-left: 10px;">WiFi Routers</span><span style="margin-right: 30px;">Rescue</span></li>
+                <li><span style="margin-right: 30px;">Personal Loan</span><span style="margin-left: 40px;">Kaathal Movie Review</span></li>
+
+
+            </ul>
+        </div>
+        <div>
+            
+            <div class="footer-title">HOT ON THE WEB</div>
+            <ul>
+       <li><span>Jigna Vora</span><span style="margin-left: 30px;">Life style</span><span style="margin-left: 30px;">Navbharat Times</span></li>
+       <li><span>Angkor Wat</span><span style="margin-left: 30px;">Filmfare</span><span style="margin-left: 30px;">Maharashtra</span></li> 
+       <li><span>Superfoods To</span><span style="margin-left: 30px;">Bobby Deol</span><span style="margin-left: 30px;">Vijaya Karnataka</span></li>
+       <li><span>Beetroot Juice</span><span style="margin-left: 30px;">Romantic Poets</span><span style="margin-left: 30px;">Alive</span></li>
+       <li><span>Grazia</span><span style="margin-left: 30px;">Zoom</span><span style="margin-left: 30px;">Tamil Samayam</span></li>
+       <li><span>Hindi podcast</span><span style="margin-left: 30px;">Bengali podcast</span><span style="margin-left: 30px;">Bangalore Mirror</span></li>
+        </ul>
+         </div>
+
+        <div>
+            <div class="footer-title">HELP</div>
+            <ul>
+                <li>Help Me </li>
+                <li>Feedback</li>
+                <li>Report a Issue / Bug</li>
+            </ul>
+         </div>
+         <div>
+            <div class="footer-title">Treanding Topics</div>
+            <ul>
+                <li><span>Animal Collection</span><span style="margin-left: 30px;">Wish Movie Review</span></li>
+                <li><span>Pooja Hegdes</span><span style="margin-left: 30px;">Keerthy Suresh</span></li>
+                <li><span>Ranbir Kapoor</span><span style="margin-left: 30px;">Personality Test</span></li>
+                <li><span>Brain Teaser</span><span style="margin-left: 30px;">Baby Names</span></li>
+                <li><span>Sujini Embroidery</span><span style="margin-left: 30px;">Sam Bahadur Collection</span></li>
+            </ul>
+         </div>
+         <div>
+            <div class="footer-title">USEFUL LINK</div>
+            <ul>
+                <li>About</li>
+                <li>Home</li>
+                <li>Our Service</li>
+                <li>Contact</li>
+                <li>Privacy policy</li>
+            </ul>
+        </div>
+        <div class="g-i-t">
+            <div class="footer-title">Get in Touch</div>
+            <form action="/" method="post" class="space-y-2">
+                <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+                <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+                <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                    placeholder='Message...'></textarea>
+                <button type="submit" class='f-btn'>Submit</button>
+            </form>
+        </div>
+    </div>
+   
+    <div class='cr-con'>Copyright &copy; 2023 | All rights reserved. | NEXUS  NEWS
+</footer>
+
+<!-- END OF FOOTER -->
+       
+</body>
+</html>
