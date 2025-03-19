@@ -1,12 +1,11 @@
 # Project Title
 Latest News Portal
 ## Description
-This project is a news website that provides users with the latest news articles, blogs, and an image gallery.
+This project is a news website that provides users with the latest news articles, blogs, and  Indian Culture .
 
 ## Features
-- Responsive design
 - User-friendly navigation
-- Image gallery
+- Indian Culture
 - Blog section
 
 ## Installation Instructions
